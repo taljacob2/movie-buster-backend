@@ -1,8 +1,8 @@
 create table TicketTypes (
 	Id INT,
-	Price DECIMAL(4,2),
-	Title VARCHAR(50)
+	Title VARCHAR(50),
+	Price DECIMAL(4,2)
 );
-insert into TicketTypes (Id, Price, Title) values (1, 5.26, 'Regular');
-insert into TicketTypes (Id, Price, Title) values (2, 2.31, 'VIP');
-insert into TicketTypes (Id, Price, Title) values (3, 7.1, 'Discounted');
+insert into TicketTypes (Id, Title, Price) values (1, 'Regular', 5.26);
+insert into TicketTypes (Id, Title, Price) values (2, 'VIP', 2.31);
+insert into TicketTypes (Id, Title, Price) values (3, 'Discounted', 7.1);
