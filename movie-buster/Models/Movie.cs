@@ -10,7 +10,7 @@ namespace movie_buster.Models
         [MaxLength(50)] public string Title { get; set; }
 
         [ForeignKey("MovieGenre")]
-        public string MovieGenreId { get; set; }
+        public int MovieGenreId { get; set; }
         public MovieGenre MovieGenre { get; set; }
     }
 }

@@ -13,7 +13,7 @@ namespace movie_buster.Models
         public TicketType TicketType { get; set; }
 
         [ForeignKey("Customer")]
-        public int CustomerId { get; set; }
+        public string CustomerId { get; set; }
         public Customer Customer { get; set; }
 
         [ForeignKey("Movie")]
