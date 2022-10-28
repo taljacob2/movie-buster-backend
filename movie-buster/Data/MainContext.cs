@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using movie_buster.Models;
 
 namespace movie_buster.Data
 {
@@ -8,7 +9,10 @@ namespace movie_buster.Data
         {
         }
 
-        // public DbSet<Movies> Movies { get; set; }
-        // public DbSet<Tickets> Tickets { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<MovieGenre> MovieGenres { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<TicketType> TicketTypes { get; set; }
+        public DbSet<Customer> Customers { get; set; }
     }
 }

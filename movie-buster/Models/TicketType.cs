@@ -9,6 +9,6 @@ namespace movie_buster.Models
 
         [MaxLength(50)] public string Title { get; set; }
 
-        public float Price { get; set; }  
+        public float Price { get; set; }
     }
 }
