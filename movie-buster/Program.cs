@@ -21,9 +21,6 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// builder.Services.AddDbContext<MainContext>(opt => opt.Use
-//                 opt.UseMySql(Configuration.GetConnectionString("Connection")));
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
