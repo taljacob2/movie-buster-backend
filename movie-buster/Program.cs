@@ -1,10 +1,16 @@
 using movie_buster.Data;
 using Microsoft.EntityFrameworkCore;
+using movie_buster.Misc.Powershell;
 
 var builder = WebApplication.CreateBuilder(args);
 var provider = builder.Services.BuildServiceProvider();
 var configuration = provider.GetRequiredService<IConfiguration>();
 builder.Services.AddDbContext<MainContext>(item => item.UseSqlServer(configuration.GetConnectionString("Connection")));
+
+
+// Execute Powershell Command:
+new PowershellExecutor().run("InitDatabase.ps1");
+
 
 // Add services to the container.
 
