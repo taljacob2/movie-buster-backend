@@ -1,9 +1,9 @@
-create table Tickets (
-	Id INT,
-	TicketTypeId INT,
-	CustomerId INT,
-	MovieId INT
-);
+--create table Tickets (
+--	Id INT,
+--	TicketTypeId INT,
+--	CustomerId INT,
+--	MovieId INT
+--);
 insert into Tickets (Id, TicketTypeId, CustomerId, MovieId) values (1, 8, 1, 8);
 insert into Tickets (Id, TicketTypeId, CustomerId, MovieId) values (2, 6, 7, 2);
 insert into Tickets (Id, TicketTypeId, CustomerId, MovieId) values (3, 8, 8, 4);

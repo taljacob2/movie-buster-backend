@@ -1,8 +1,8 @@
-create table Movies (
-	Id INT,
-	Title VARCHAR(50),
-	MovieGenreId INT
-);
+--create table Movies (
+--	Id INT,
+--	Title VARCHAR(50),
+--	MovieGenreId INT
+--);
 insert into Movies (Id, Title, MovieGenreId) values (1, 'It''s Kind of a Funny Story', 9);
 insert into Movies (Id, Title, MovieGenreId) values (2, 'OT: Our Town', 5);
 insert into Movies (Id, Title, MovieGenreId) values (3, 'This Man Must Die (Que la bête meure)', 4);

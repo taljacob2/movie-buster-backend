@@ -1,9 +1,9 @@
-create table Customers (
-	Id VARCHAR(50),
-	FirstName VARCHAR(50),
-	LastName VARCHAR(50),
-	Age INT
-);
+--create table Customers (
+--	Id VARCHAR(50),
+--	FirstName VARCHAR(50),
+--	LastName VARCHAR(50),
+--	Age INT
+--);
 insert into Customers (Id, FirstName, LastName, Age) values ('92-223-7343', 'Cornelle', 'Tonkinson', 54);
 insert into Customers (Id, FirstName, LastName, Age) values ('12-243-2258', 'Corette', 'Deakan', 35);
 insert into Customers (Id, FirstName, LastName, Age) values ('53-803-2870', 'Bel', 'Marsie', 53);

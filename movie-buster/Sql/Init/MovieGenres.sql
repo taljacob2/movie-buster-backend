@@ -1,8 +1,8 @@
-create table MovieGenres (
-	Id INT,
-	Title VARCHAR(50),
-	AgeLimit INT
-);
+--create table MovieGenres (
+--	Id INT,
+--	Title VARCHAR(50),
+--	AgeLimit INT
+--);
 insert into MovieGenres (Id, Title, AgeLimit) values (1, 'Action', 3);
 insert into MovieGenres (Id, Title, AgeLimit) values (2, 'Crime', 15);
 insert into MovieGenres (Id, Title, AgeLimit) values (3, 'Drama', 8);
