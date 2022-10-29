@@ -9,7 +9,7 @@ builder.Services.AddDbContext<MainContext>(item => item.UseSqlServer(configurati
 
 
 // Execute Powershell Command:
-new PowershellExecutor().run("InitDatabase.ps1");
+//new PowershellExecutor().run("InitDatabase.ps1");
 
 
 // Add services to the container.
