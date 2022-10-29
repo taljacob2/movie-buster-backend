@@ -5,7 +5,6 @@ namespace movie_buster.Models
 {
     public class Ticket
     {
-
         [Key] public int Id { get; set; }
 
         [ForeignKey("TicketType")]
