@@ -17,7 +17,11 @@ namespace movie_buster.Misc.Powershell
                 // Add arguments to the command.
                 foreach (string arg in args) { ps.AddArgument(arg); }
 
-                ps.Invoke();
+                ICollection<PSObject> resultList = ps.Invoke();
+                foreach (PSObject result in resultList)
+                {
+                    Console.WriteLine(result.ToString());
+                }
             }
         }
     }
